@@ -89,3 +89,5 @@ address { font-style: normal; margin: 14px 0; }
   .gallery { grid-template-columns: 1fr; }
   .gallery img { height: auto; }
 }
+
+.home-photo { display: block; width: 100%; max-width: 480px; height: auto; margin: 14px auto 18px; border: 1px solid #bdc6b4; }
