@@ -38,6 +38,12 @@ For direct publishing, explicitly authorize committing and pushing to main. Depl
 
 ## Content provenance and launch review
 
-Initial copy is adapted from https://kochchristmastrees.com/ as retrieved on October 16, 2026: 25th season; 2026 reservations open; one slot per family; listed varieties and tree sizes; late-season spruce guidance; Ramsey family wreaths; complimentary hot chocolate; tagged-tree policy. Confirm seasonal details before launch. Address, hours, pricing, and contact information were not provided, so they have not been invented. The existing Square booking URL is preserved, but appointment availability must be verified by an owner.
+Initial copy is adapted from https://kochchristmastrees.com/ as retrieved on October 16, 2026: 25th season; 2026 reservations open; one slot per family; listed varieties and tree sizes; late-season spruce guidance; Ramsey family wreaths; complimentary hot chocolate; tagged-tree policy. Confirm seasonal details before launch. Address, hours, and public contact details were subsequently migrated from the live site’s additional pages; no numeric tree prices were provided. The existing Square booking URL is preserved, but appointment availability must be verified by an owner.
 
 The check script verifies local assets, anchors, basic HTML nesting, image alt attributes, and relative paths. It is not an external link checker or a full accessibility audit.
+
+## Additional pages
+
+The six WordPress navigation pages were migrated on October 16, 2026: Our Story (`?page_id=221`), Dates and Hours (`22`), Services (`26`), Gallery (`28`), Contact Us (`30`), and Directions (`24`). All pages have shared navigation, with Reservations linking directly to Square. Gallery and map images are stored locally in `site/assets/photos/`; they do not depend on WordPress hosting. The old story/services variety lists differed from the 2026 homepage, so those pages link to the current seasonal selection rather than duplicate conflicting inventory. The schedule, public contact details, address, and directions were copied from their respective live pages. Review these owner-provided details before each season.
+
+Update shared header/navigation markup across all seven HTML files when changing it. The dates/hours page also needs seasonal updates. Old WordPress query-string URLs are not redirected; use the new HTML URLs when sharing links.

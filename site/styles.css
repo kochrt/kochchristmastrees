@@ -67,3 +67,25 @@ footer span { padding: 0 7px; }
   .reservation { padding: 12px; }
   .booking { font-size: 18px; }
 }
+
+/* Shared navigation and additional information pages. */
+nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px 17px; }
+nav a { white-space: nowrap; }
+nav a[aria-current="page"] { font-weight: bold; color: var(--red); }
+address { font-style: normal; margin: 14px 0; }
+.hours { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 15px; }
+.hours caption { text-align: left; font: bold 22px Georgia, serif; color: var(--green); margin-bottom: 10px; }
+.hours th, .hours td { text-align: left; padding: 9px 8px; border: 1px solid #bcc6b1; }
+.hours th { background: #e8edde; }
+.hours tbody tr:nth-child(even) { background: #f3f5ed; }
+.gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; margin: 18px 0; }
+.gallery a { display: block; }
+.gallery img { display: block; width: 100%; height: 230px; object-fit: contain; background: #eef0e7; border: 1px solid #bdc6b4; }
+.directions-map { display: block; max-width: 100%; height: auto; border: 1px solid #bdc6b4; }
+@media (max-width: 560px) {
+  nav { gap: 6px 14px; }
+  .hours { font-size: 13px; }
+  .hours th, .hours td { padding: 8px 5px; }
+  .gallery { grid-template-columns: 1fr; }
+  .gallery img { height: auto; }
+}

@@ -2,7 +2,7 @@
 
 This is a buildless static site deployed to GitHub Pages from `main`.
 
-- Edit page content in `site/index.html`, styles in `site/styles.css`, and illustrations in `site/assets/`.
+- Edit page content in `site/*.html`, styles in `site/styles.css`, and illustrations in `site/assets/`.
 - Preserve the compact, traditional style: simple headings, modest spacing, ordinary links, and matter-of-fact copy. Avoid oversized hero sections, marketing slogans, and decorative illustrations.
 - Keep the site dependency-free and usable without JavaScript. No framework or CMS is needed.
 - Keep all asset and internal page paths relative so repository subpaths work on GitHub Pages.
@@ -14,3 +14,5 @@ This is a buildless static site deployed to GitHub Pages from `main`.
 - Only `site/` is published. Never add secrets or private owner information there.
 - Do not change DNS, add a CNAME, or replace the existing WordPress site without explicit instruction.
 - Explain the changes and checks. If asked to publish, push to main only when authorized; otherwise prepare a branch/PR.
+
+- Navigation is shared manually across all seven HTML pages; keep links and current-page markers consistent. Update seasonal hours in `site/dates-and-hours.html` alongside the homepage.
