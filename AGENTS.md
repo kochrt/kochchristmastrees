@@ -3,6 +3,7 @@
 This is a buildless static site deployed to GitHub Pages from `main`.
 
 - Edit page content in `site/index.html`, styles in `site/styles.css`, and illustrations in `site/assets/`.
+- Preserve the compact, traditional style: simple headings, modest spacing, ordinary links, and matter-of-fact copy. Avoid oversized hero sections, marketing slogans, and decorative illustrations.
 - Keep the site dependency-free and usable without JavaScript. No framework or CMS is needed.
 - Keep all asset and internal page paths relative so repository subpaths work on GitHub Pages.
 - Preserve the Square reservation URL unless the owners provide a replacement.

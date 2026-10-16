@@ -1,6 +1,6 @@
 # Koch Christmas Trees
 
-A small, dependency-free HTML/CSS website. No CMS, package install, build tool, or browser JavaScript. The original forest illustration is an SVG, not a photograph of the farm.
+A small, dependency-free HTML/CSS website. No CMS, package install, build tool, or browser JavaScript. The design intentionally uses a compact, traditional small-business layout with straightforward seasonal information.
 
 ## Preview and check
 
