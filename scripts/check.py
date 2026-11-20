@@ -28,6 +28,10 @@ class Page(HTMLParser):
             self.errors.append(f'Unbalanced closing tag: {tag}')
         else:
             self.stack.pop()
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if tag not in VOID:
+            self.handle_endtag(tag)
 
 pages = {}
 errors = []
