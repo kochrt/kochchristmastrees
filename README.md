@@ -6,10 +6,10 @@ A small, dependency-free HTML/CSS website. No CMS, package install, build tool, 
 
 ```sh
 python3 scripts/check.py
-python3 -m http.server 8000 --directory site
+./scripts/preview.sh
 ```
 
-Open http://localhost:8000. Content lives in `site/index.html`; styles live in `site/styles.css`.
+Open http://localhost:8000 on this Mac, or `http://MAC_IP_ADDRESS:8000` from another device on the same network. Set `PORT` to use a different port, for example `PORT=8080 ./scripts/preview.sh`. Content lives in `site/index.html`; styles live in `site/styles.css`.
 
 ## GitHub Pages setup
 
